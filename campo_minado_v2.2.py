@@ -73,8 +73,6 @@ class Campo:
 
         event.txt.config(text=f"Marcados: {event.marcas}")
 
-        print(event.window.winfo_height())
-
     def cor(self, i, j):
 
         if self.tabuleiro[i][j].bombas_em_volta == 0:
